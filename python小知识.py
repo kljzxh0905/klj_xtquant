@@ -27,4 +27,19 @@ C:\\Users\ttyrc33>netstat -ano | findstr :58609
 C:\\Users\ttyrc33>taskkill /PID 21460 /F
 成功: 已终止 PID 为 21460 的进程。
 '''
+'''
+# 检查当前状态
+git status
 
+# 添加所有更改的文件
+git add .
+
+# 提交更改
+git commit -m "Initial commit"
+
+# 添加远程仓库（如果还没有添加）
+git remote add origin https://github.com/yourusername/yourrepository.git
+
+# 推送到远程仓库
+git push -u origin main'
+'''
